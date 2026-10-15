@@ -2,14 +2,14 @@
 
 A responsive, dependency-free academic portfolio designed for GitHub Pages.
 
-## Publish with GitHub Pages
+## Deployment
 
-1. Create a GitHub repository and push these files to its `main` branch.
-2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **GitHub Actions** as the source.
-4. The workflow in `.github/workflows/pages.yml` will publish the site after the next push. Its URL will appear under **Settings → Pages** and in the workflow run summary.
+The site is published from the `main` branch with the workflow in `.github/workflows/pages.yml`.
 
-For a personal site at `https://<username>.github.io`, name the repository `<username>.github.io`. A repository with another name publishes at `https://<username>.github.io/<repository>/`.
+- Repository: https://github.com/ATANDOH/PETERATANDOH.github.io
+- Site: https://atandoh.github.io/PETERATANDOH.github.io/
+
+Changes to the site files on `main` trigger a new deployment. GitHub Pages is configured to use GitHub Actions.
 
 ## Customize
 
